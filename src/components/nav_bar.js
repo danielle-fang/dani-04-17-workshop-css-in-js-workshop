@@ -34,7 +34,9 @@ const ListItem2 = styled(Button)`
 color: #F05252;
 background: white;
 &:hover {
-    // your code here
+  background: #ff0000;
+  transition-timing-function: ease;
+  transition: 0.5s;
   }
 `;
 

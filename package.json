@@ -1,16 +1,16 @@
 {
-  "name": "starterpack-billy-mcgrath",
+  "name": "danielle-fang-workshop-css-in-js",
   "version": "1.0.0",
   "main": "src/index.js",
-  "repository": "git@github.com:dartmouth-cs52-19S/starterpack-billy-mcgrath.git",
-  "author": "billy-mcgrath <william.f.mcgrath.20@dartmouth.edu>",
+  "repository": "git@github.com:danielle-fang/dani-04-17-workshop-css-in-js-workshop.git",
+  "author": "danielle-fang <danielle.fang.20@dartmouth.edu>",
   "license": "MIT",
   "scripts": {
     "start": "NODE_ENV=development webpack-dev-server",
     "test": "eslint src/**.js",
     "build": "yarn clean; NODE_ENV=production webpack --colors",
     "clean": "rimraf dist",
-    "deploy": "yarn build; surge -p dist -d billymcgrath-cs52-videos.surge.sh; yarn clean"
+    "deploy": "yarn build; surge -p dist -d danielle-fang-css-in-js.surge.sh; yarn clean"
   },
   "devDependencies": {
     "@babel/core": "^7.4.3",
